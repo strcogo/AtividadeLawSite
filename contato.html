@@ -13,16 +13,23 @@
         <section class="titulo">
             <h1>CEFET-MG - Campus Varginha - Curso Técnico</h1>
         </section>
-        <section class="atalhos">
-            <h1>Início</h1>
+        <nav>
+            <a href="index.html">
+                <h1>Início</h1>
+            </a>
+
             <h1>Curso</h1>
-            <h1>FAQ</h1>
+            <a href="faq.html">
+                <h1>
+                    FAQ
+                </h1>
+            </a>
             <a href="contato.html">
                 <h1>
                     Contato
                 </h1>
             </a>
-        </section>
+        </nav>
     </header>
     <main>
         <form action="" method="post" enctype="multipart/form-data">
@@ -36,30 +43,27 @@
                 </div>
 
                 <div>
-                    <label for="email">Email </label>
+                    <label for="email">E-mail </label>
                     <input type="email" name="email">
                 </div>
 
                 <div>
                     <input type="radio" name="sexo" value="M" id="masculino">
-                    <label for="sexo">M </label>
-                </div>
+                    <label for="sexo">Masculino </label>
 
-                <div>
                     <input type="radio" name="sexo" value="F" id="feminino">
-                    <label for="sexo">F </label>
+                    <label for="sexo">Feminino </label>
                 </div>
 
                 <div>
+                    <label for="estado">Estado/Cidade</label>
                     <select name="estado" id="estado">
+                        <option value=""></option>
                         <option value="MG">MG</option>
                         <option value="SP">SP</option>
                         <option value="AM">AM</option>
-                        <option value="RS">RS</option>
                     </select>
-                </div>
 
-                <div>
                     <input type="text" name="cidade" placeholder="Varginha">
                 </div>
 
@@ -69,13 +73,13 @@
                 </div>
 
                 <div>
-                    <h3>Sugestão</h3>
-                    <textarea name="sugestao" id="sugestao" cols="30" rows="10"></textarea>
+                    <label for="sugestao">Sugestão</label>
+                    <textarea name="sugestao" id="sugestao" cols="10" rows="10"></textarea>
                 </div>
 
                 <div>
-                    <input type="submit" name="enviar" id="enviar">
-                    <input type="reset" name="reset" id="reset">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Resetar</button>
                 </div>
             </fieldset>
         </form>

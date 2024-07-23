@@ -23,12 +23,12 @@ header{
     height: 120px;
 }
 
-.atalhos{
+nav{
     background-color: var(--azul);
     display: flex;
     justify-content: space-evenly;
 }
-.atalhos a{
+nav a{
     color: white;
     text-decoration: none;
 }
@@ -55,13 +55,29 @@ fieldset{
     padding: 5px;
 }
 
+fieldset div textarea{
+    width: 99%;
+}
 
 fieldset div input{
-    border: 1px solid grey;
+    border: 1px solid #d9d9d9;
+}
+
+fieldset div button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--azul);
+    color: white;
+    font-weight: 500;
 }
 
 footer{
     background-color: var(--azul);
     display: flex;
     justify-content: left;
+}
+
+.toldo{
+    min-height: 100vh;
 }
