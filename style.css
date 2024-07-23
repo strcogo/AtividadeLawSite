@@ -79,5 +79,27 @@ footer{
 }
 
 .toldo{
+    display: block;
     min-height: 100vh;
+}
+
+.toldo div, p, a{
+    padding: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.toldo div p{
+    font-weight: 900;
+}
+
+.toldo div li{
+    margin: 1rem;
+}
+
+.toldo div a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
 }
