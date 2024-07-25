@@ -16,6 +16,8 @@ header{
     flex-direction: column;
 }
 .titulo{
+    font-size: x-large;
+    text-shadow: 2px 2px black;
     display: flex;
     background-image: url("banner.jpeg");
     justify-content: space-around;
@@ -36,7 +38,7 @@ nav a{
 
 main{
     display: flex;
-    min-height: calc(100vh - 184px);
+    min-height: calc(100vh - 215px);
     justify-content: center;
     align-items: center;
 }
@@ -102,4 +104,31 @@ footer{
     font-weight: normal;
     text-decoration: none;
     color: black;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso h1 {
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+
+table, td, tr, th {
+    width: max-content;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0 1rem;
+}
+
+td {
+    text-align: center;
+}
+
+.materia {
+    text-align: left;
 }
