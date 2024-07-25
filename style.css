@@ -55,7 +55,7 @@ main section h1{
 main ol, ul {
     font-size: x-large;
     font-weight: 100;
-    padding: 0.5rem 2rem;
+    padding: 0rem 3rem;
 }
 
 fieldset{
