@@ -52,6 +52,12 @@ main section h1{
     padding: 1rem;
 }
 
+main ol, ul {
+    font-size: x-large;
+    font-weight: 100;
+    padding: 0.5rem 2rem;
+}
+
 fieldset{
     width:fit-content;
     padding: 5px;
@@ -117,11 +123,14 @@ footer{
     margin-bottom: 1rem;
 }
 
+.materia {
+    text-align: left;
+}
 
 table, td, tr, th {
     width: max-content;
-    border: 1px solid black;
     border-collapse: collapse;
+    border: 1px solid black;
     padding: 0 1rem;
 }
 
@@ -129,6 +138,3 @@ td {
     text-align: center;
 }
 
-.materia {
-    text-align: left;
-}
